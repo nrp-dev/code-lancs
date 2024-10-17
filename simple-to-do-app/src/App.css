@@ -1,0 +1,89 @@
+
+
+@font-face{
+  font-family: "roboto-regular-webfont";
+  src: url("./assets/fonts/roboto-regular-webfont.woff");
+  src: url("./assets/fonts/roboto-regular-webfont.woff2")
+}
+
+
+@font-face{
+  font-family: "roboto-bold-webfont";
+  src: url("./assets/fonts/roboto-bold-webfont.woff");
+  src: url("./assets/fonts/roboto-bold-webfont.woff2")
+}
+*{
+  font-family: "roboto-regular-webfont";
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: "roboto-bold-webfont";
+
+}
+
+.todo-form {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: "roboto-regular-webfont";
+  border-radius: 10px;;
+
+}
+
+.todo-form button {
+  padding: 8px;
+  color: white;
+  background-color: darkgreen;
+  cursor: pointer;
+  font-family: "roboto-bold-webfont";
+  font-size: 14px;
+  border-radius: 10px;;
+
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  width: 300px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.todo-item .completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
