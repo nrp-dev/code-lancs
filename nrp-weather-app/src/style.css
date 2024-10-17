@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'roboto-regular-webfont';
+    src: url('../src/assets/fonts/roboto-regular-webfont.woff');
+    src: url('../src/assets/fonts/roboto-regular-webfont.woff2');
+  }
+  
+  @font-face {
+    font-family: 'roboto-bold-webfont';
+    src: url('../src/assets/fonts/roboto-bold-webfont.woff');
+    src: url('../src/assets/fonts/roboto-bold-webfont.woff2');
+  }
+  
+  @font-face {
+    font-family: 'roboto-black-webfont';
+    src: url('../src/assets/fonts/roboto-black-webfont.woff');
+    src: url('../src/assets/fonts/roboto-black-webfont.woff2');
+  }
+
+ *{
+    font-family: 'roboto-bold-webfont';
+    
+ } 
+.app-container{
+    display: flex;
+    justify-content: center;
+}
+
+.error{
+    color: red;
+}
+input, button, .error{
+    font-family: 'roboto-bold-webfont';
+    font-size: 24px;
+}
+.weather-card{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    opacity: 0.5;
+
+
+}
+
+.weather-variables{
+    padding: 25px;
+}
